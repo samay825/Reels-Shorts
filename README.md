@@ -1,9 +1,9 @@
-# ✨ Instagram Pro Toolkit
+# ✨ SocialSync Hub
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/egonelbre/gophers/master/animation/gopher-dance-long-3x.gif" alt="Animated Logo" width="300" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" alt="Game Animation" width="200" />
 
-  <h2><strong>🚀 Ultimate Instagram Downloader & Telegram Bot Automation</strong></h2>
+  <h2><strong>🚀 All-in-One Social Media Assistant & Bot Platform</strong></h2>
 
   ![Python](https://img.shields.io/badge/Python-3.13.2-blue?style=for-the-badge&logo=python&logoColor=white)
   ![Windows](https://img.shields.io/badge/Platform-Windows-0078D7?style=for-the-badge&logo=windows&logoColor=white)
@@ -11,84 +11,143 @@
   ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 </div>
 
----
-
-## 🌟 Overview
-
-**Instagram Pro Toolkit** is an all-in-one solution for automating Instagram downloads and scraping tasks. With built-in support for a persistent **Telegram bot**, it allows background operation even after closing the script—until you explicitly terminate it with a `.bat` file.
-
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212750147-854a394f-fee9-4080-9770-78a4b7ece53f.gif" alt="Divider" />
+  <hr style="border-top: 3px dashed #bbb;">
 </div>
 
-## 🚀 Key Features
+## 🌈 What is SocialSync Hub?
 
-- 🎥 **Download Reels & Multi-posts** with ease
-- 🖼️ **Profile Picture Downloader** — full-size, high quality
-- 🧠 **Profile Data Scraper** — collect bios, followers, and more
-- 🔗 **Premium Link Support** — fetches content not easily accessible
-- 🤖 **Telegram Bot Integration** — interact anytime, from anywhere
-- 🕒 **Persistent Background Process** — runs all day unless explicitly terminated
-- 🧼 **Clean CLI Interface** — smooth flow & animations for each interaction
-- 🔐 **Auto Setup & Authentication** — one-click deployment with Python validation
+SocialSync Hub unifies social media content management with an intelligent Telegram bot core. Download, archive, and process content from multiple platforms while enjoying persistent background operation—all accessible through a simple bot interface or local GUI.
+
+
+
+## 🔥 Platform Features
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <h1>📸</h1>
+      <h3>Instagram</h3>
+      <ul align="left">
+        <li>🎬 Download Reels & Stories</li>
+        <li>🖼️ Save profile pictures (HD)</li>
+        <li>📊 Extract profile analytics</li>
+        <li>🔍 Access premium content</li>
+      </ul>
+    </td>
+    <td align="center" width="33%">
+      <h1>🎥</h1>
+      <h3>YouTube</h3>
+      <ul align="left">
+        <li>🎥 HD video downloads</li>
+        <li>🎵 Audio extraction</li>
+        <li>⚡ Fastest resolution</li>
+        <li>📑 Batch processing</li>
+      </ul>
+    </td>
+    <td align="center" width="33%">
+      <h1>💬</h1>
+      <h3>Telegram Bot</h3>
+      <ul align="left">
+        <li>💬 24/7 access anywhere</li>
+        <li>🔄 Real-time processing</li>
+        <li>🔔 Download notifications</li>
+        <li>🔐 Secure authentication</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" alt="Feature Animation" width="450" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Down%20Arrow.png" width="60" />
 </div>
 
----
+<div align="center">
+  <a href="https://www.instagram.com"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Instagram.svg" width="60" style="margin-right:20px"></a>
+  <a href="https://www.youtube.com"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Youtube.svg" width="60" style="margin-right:20px"></a>
+  <a href="https://telegram.org"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Telegram.svg" width="60"></a>
+</div>
+
+<div align="center">
+  <hr style="border-top: 3px dashed #bbb;">
+</div>
+
+## 🚀 Core Advantages
+
+
+
+- ⚡ **Lightning Fast** — Optimized algorithms for minimal download times
+- 🤖 **Fully Automated** — Set and forget operation with background processing
+- 🎨 **Beautiful Interface** — Clean CLI with progress animations
+- 🔓 **No Limitations** — Access content without platform restrictions
+- 🔄 **Always Running** — Persistent operation until explicit termination
+- 🛡️ **Auto-Recovery** — Intelligent error handling and reconnection
+
+<div align="center">
+  <hr style="border-top: 3px dashed #bbb;">
+</div>
 
 ## 🛠️ Installation
 
+
+
 ### 🔧 Prerequisites
 
-- ✅ Python **3.13.2**
+- ✅ Minimum Python **3.13.3**
 - ✅ **Windows OS**
 - The script checks and installs missing dependencies automatically.
 
-### 📦 Method 1: Windows (Recommended)
+### 📦 Getting Started
 
-1. Download/Clone this InstagramPro-ToolKit Repository
-2. Extract the `.zip` file
-3. Run `Instagram_Pro.bat` as Administrator
-
-
-
----
-
-## 🎮 Usage Guide
-
-1. Double-click `Instagram_Pro.bat`
-2. Accept admin prompt if asked
-3. The script will:
-   - Auto-check Python 3.13.2
-   - Setup Telegram bot in background
-   - Let you choose your Instagram task
-4. All operations continue until stopped via `Terminate.bat`
+1. Go to the [Releases Page](https://github.com/samay825/InstagramPro-ToolKit/releases) and download the latest version
+2. Extract the `.zip` file to your preferred location
+3. Run as Administrator for best results
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" alt="Usage Animation" width="600" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" width="80" /> 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands.png" width="80" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/OK%20Hand.png" width="80" />
 </div>
 
----
+<div align="center">
+  <hr style="border-top: 3px dashed #bbb;">
+</div>
+
+
 
 ## 📋 Dependencies
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Package.png" alt="Dependencies" width="120" />
+</div>
 
 Installed automatically by the script:
 
 ```
-requests>=2.31.0
-python-telegram-bot>=13.15
-pillow>=9.5.0
-tqdm>=4.66.1
-cryptography>=41.0.3
-colorama>=0.4.6
-pyyaml>=6.0.1
+pyTelegramBotAPI==4.12.0
+instaloader==4.10.0
+requests==2.31.0
+urllib3==2.0.7
+certifi==2023.11.17
+beautifulsoup4==4.12.2
+fake-useragent==1.1.3
+pyshorteners==1.0.1
+yt-dlp
+playwright
+wcwidth
+rich
+winshell
 ```
 
----
+<div align="center">
+  <hr style="border-top: 3px dashed #bbb;">
+</div>
 
 ## 🧩 Troubleshooting
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Troubleshooting" width="120" />
+</div>
 
 <details>
 <summary><strong>🔍 Script doesn't start</strong></summary>
@@ -103,7 +162,7 @@ pyyaml>=6.0.1
 
 - Download Python 3.13.2 manually from [python.org](https://www.python.org/downloads/)
 - Ensure "Add to PATH" is checked
-- Rerun `Instagram_Pro.bat`
+- Rerun `SocialSync.bat`
 </details>
 
 <details>
@@ -114,16 +173,26 @@ pyyaml>=6.0.1
 - Report issues on GitHub with screenshots
 </details>
 
----
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" width="80" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Open%20Mouth.png" width="80" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" width="80" />
+</div>
+
+<div align="center">
+  <hr style="border-top: 3px dashed #bbb;">
+</div>
 
 ## 📜 License
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20with%20Curl.png" alt="License" width="120" />
+</div>
+
 Licensed under the MIT License. See [`LICENSE`](LICENSE) for full terms.
 
----
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/images/hyperkitty.gif" alt="Footer Animation" width="350" />
+ 
 
   <p>Made with ❤️ by <strong>Zork</strong></p>
 
