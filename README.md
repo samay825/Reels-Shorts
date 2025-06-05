@@ -63,9 +63,9 @@ SocialSync Hub unifies social media content management with an intelligent Teleg
 </div>
 
 <div align="center">
-  <a href="https://www.instagram.com"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Instagram.svg" width="60" style="margin-right:20px"></a>
-  <a href="https://www.youtube.com"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Youtube.svg" width="60" style="margin-right:20px"></a>
-  <a href="https://telegram.org"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Telegram.svg" width="60"></a>
+  <a href="https://www.instagram.com/sincryptzork"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Instagram.svg" width="60" style="margin-right:20px"></a>
+  <a href="https://www.youtube.com/@zork825"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Youtube.svg" width="60" style="margin-right:20px"></a>
+  <a href="https://telegram.com/sincryptzork"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Telegram.svg" width="60"></a>
 </div>
 
 <div align="center">
