@@ -1,202 +1,235 @@
-# ✨ SocialSync Hub
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" alt="Game Animation" width="200" />
 
-  <h2><strong>🚀 All-in-One Social Media Assistant & Bot Platform</strong></h2>
+# 🤖 Instagram Telegram Bot
 
-  ![Python](https://img.shields.io/badge/Python-3.13.2-blue?style=for-the-badge&logo=python&logoColor=white)
-  ![Windows](https://img.shields.io/badge/Platform-Windows-0078D7?style=for-the-badge&logo=windows&logoColor=white)
-  ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-  ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+<img src="https://i.imgur.com/YourBotImage.png" alt="Instagram Telegram Bot" width="200" height="200" style="border-radius: 50%;">
+
+[![Python](https://img.shields.io/badge/Python-3.13.3+-blue.svg)](https://www.python.org/downloads/)
+[![Telegram Bot API](https://img.shields.io/badge/Telegram%20Bot%20API-4.15.4-blue.svg)](https://core.telegram.org/bots/api)
+[![License](https://img.shields.io/badge/License-Educational-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](README.md)
+
+**A powerful Telegram bot that allows users to download content from Instagram and YouTube platforms with ease.**
+
+*This bot provides a user-friendly interface with inline keyboards and supports various content types including reels, posts, stories, profile photos, and YouTube videos/audio.*
+
+---
+
 </div>
 
-<div align="center">
-  <hr style="border-top: 3px dashed #bbb;">
-</div>
+## ✨ Features
 
-## 🌈 What is SocialSync Hub?
+### 📷 Instagram Downloader
+- **🎞️ Reels**: Download Instagram reels in high quality
+- **📸 Posts**: Download Instagram posts (single/multiple images)
+- **📖 Stories**: Download Instagram stories
+- **👤 Profile Photos**: Download profile pictures in full resolution
+- **📊 Analytics**: Get detailed profile analytics and download statistics
 
-SocialSync Hub unifies social media content management with an intelligent Telegram bot core. Download, archive, and process content from multiple platforms while enjoying persistent background operation—all accessible through a simple bot interface or local GUI.
+### 🎥 YouTube Downloader
+- **🔗 Video Links**: Generate download links for YouTube videos
+- **📹 Video Files**: Download YouTube videos and shorts directly (up to 50MB)
+- **🎵 Audio Only**: Extract and download audio from YouTube videos
+- **📊 Analytics**: Track download statistics
 
+### 🔧 Additional Features
+- **📊 Real-time Statistics**: Track usage and download counts
+- **🔗 URL Shortening**: Automatic URL shortening and masking
+- **⚡ Background Mode**: Run bot 24/7 in background
+- **🛡️ Error Handling**: Robust error handling and user feedback
+- **📱 Responsive UI**: Clean inline keyboard interface
 
+## 🚀 Installation
 
-## 🔥 Platform Features
+### Prerequisites
+- Python 3.13.3 or higher
+- Windows OS (for batch file management)
+- Telegram Bot Token (from [@BotFather](https://t.me/BotFather))
 
-<table align="center">
-  <tr>
-    <td align="center" width="33%">
-      <h1>📸</h1>
-      <h3>Instagram</h3>
-      <ul align="left">
-        <li>🎬 Download Reels & Stories</li>
-        <li>🖼️ Save profile pictures (HD)</li>
-        <li>📊 Extract profile analytics</li>
-        <li>🔍 Access premium content</li>
-      </ul>
-    </td>
-    <td align="center" width="33%">
-      <h1>🎥</h1>
-      <h3>YouTube</h3>
-      <ul align="left">
-        <li>🎥 HD video downloads</li>
-        <li>🎵 Audio extraction</li>
-        <li>⚡ Fastest resolution</li>
-        <li>📑 Batch processing</li>
-      </ul>
-    </td>
-    <td align="center" width="33%">
-      <h1>💬</h1>
-      <h3>Telegram Bot</h3>
-      <ul align="left">
-        <li>💬 24/7 access anywhere</li>
-        <li>🔄 Real-time processing</li>
-        <li>🔔 Download notifications</li>
-        <li>🔐 Secure authentication</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### Quick Setup
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Down%20Arrow.png" width="60" />
-</div>
+1. **Clone or Download** the project to your local machine
 
-<div align="center">
-  <a href="https://www.instagram.com/sincryptzork"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Instagram.svg" width="60" style="margin-right:20px"></a>
-  <a href="https://www.youtube.com/@zork825"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Youtube.svg" width="60" style="margin-right:20px"></a>
-  <a href="https://telegram.com/sincryptzork"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Telegram.svg" width="60"></a>
-</div>
+2. **Navigate** to the project directory:
+  
 
-<div align="center">
-  <hr style="border-top: 3px dashed #bbb;">
-</div>
+3. **Run the Bot Manager**:
+   ```batch
+   Reels-Shorts.bat
+   ```
 
-## 🚀 Core Advantages
+4. **Configure Bot Token**:
+   - Select option `[4] Configure Bot Token`
+   - Enter your Telegram Bot Token from @BotFather
+   - The token will be automatically saved to `telegram_config.json`
 
+5. **Start the Bot**:
+   - Select option `[1] Start Bot 24/7 (Background Mode)`
+   - The bot will automatically install dependencies and start running
 
+### Manual Installation
 
-- ⚡ **Lightning Fast** — Optimized algorithms for minimal download times
-- 🤖 **Fully Automated** — Set and forget operation with background processing
-- 🎨 **Beautiful Interface** — Clean CLI with progress animations
-- 🔓 **No Limitations** — Access content without platform restrictions
-- 🔄 **Always Running** — Persistent operation until explicit termination
-- 🛡️ **Auto-Recovery** — Intelligent error handling and reconnection
+If you prefer manual setup:
 
-<div align="center">
-  <hr style="border-top: 3px dashed #bbb;">
-</div>
+1. **Install Python Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 🛠️ Installation
+2. **Configure Bot Token**:
+   Create `telegram_config.json` with your bot token:
+   ```json
+   {"token": "YOUR_BOT_TOKEN_HERE"}
+   ```
 
-
-
-### 🔧 Prerequisites
-
-- ✅ Minimum Python **3.13.3**
-- ✅ **Windows OS**
-- The script checks and installs missing dependencies automatically.
-
-### 📦 Getting Started
-
-1. Go to the [Releases Page](https://github.com/samay825/InstagramPro-ToolKit/releases) and download the latest version
-2. Extract the `.zip` file to your preferred location
-3. Run as Administrator for best results
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" width="80" /> 
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands.png" width="80" />
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/OK%20Hand.png" width="80" />
-</div>
-
-<div align="center">
-  <hr style="border-top: 3px dashed #bbb;">
-</div>
-
-
+3. **Run the Bot**:
+   ```bash
+   double click on bat file 
+   ```
 
 ## 📋 Dependencies
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Package.png" alt="Dependencies" width="120" />
-</div>
-
-Installed automatically by the script:
+The bot uses the following Python packages:
 
 ```
-pyTelegramBotAPI==4.12.0
-instaloader==4.10.0
-requests==2.31.0
-urllib3==2.0.7
-certifi==2023.11.17
-beautifulsoup4==4.12.2
-fake-useragent==1.1.3
-pyshorteners==1.0.1
-yt-dlp
-playwright
-wcwidth
-rich
-winshell
+pyTelegramBotAPI==4.15.4    # Telegram Bot API
+requests==2.31.0            # HTTP requests
+pytube==15.0.0              # YouTube downloader
+instaloader==4.10.2         # Instagram content loader
+instagrapi>=2.1.0           # Instagram API
+yt-dlp>=2023.12.30          # YouTube/media downloader
+httpx>=0.25.0               # Async HTTP client
+pyshorteners>=1.0.1         # URL shortening
 ```
 
-<div align="center">
-  <hr style="border-top: 3px dashed #bbb;">
-</div>
+## 🎮 Usage
 
-## 🧩 Troubleshooting
+### Getting Started
+1. Start a conversation with your bot on Telegram
+2. Send `/start` to see the main menu
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Troubleshooting" width="120" />
-</div>
 
-<details>
-<summary><strong>🔍 Script doesn't start</strong></summary>
+### Supported Link Formats
 
-- Run `.bat` file as **Administrator**
-- Ensure Python 3.13.2 is installed or let script handle it
-- Check file structure inside the folder
-</details>
+**Instagram:**
+- `https://www.instagram.com/p/xxx/` (Posts)
+- `https://www.instagram.com/reel/xxx/` (Reels)
+- `https://www.instagram.com/stories/username/xxx/` (Stories)
+- `@username` or `https://www.instagram.com/username/` (Profile)
 
-<details>
-<summary><strong>🔍 Python install fails</strong></summary>
+**YouTube:**
+- `https://youtube.com/watch?v=xxx`
+- `https://youtu.be/xxx`
+- `https://m.youtube.com/watch?v=xxx`
 
-- Download Python 3.13.2 manually from [python.org](https://www.python.org/downloads/)
-- Ensure "Add to PATH" is checked
-- Rerun `SocialSync.bat`
-</details>
+## 🛠️ Bot Management
 
-<details>
-<summary><strong>🔍 Bot or download issues</strong></summary>
+The project includes a comprehensive bot management system:
 
-- Check your internet connection
-- Review Telegram bot token setup
-- Report issues on GitHub with screenshots
-</details>
+### Bot Manager (`Reels-Shorts.bat`)
+- **Start Bot**: Launch bot in background mode
+- **Stop Bot**: Safely stop the running bot
+- **Check Status**: View current bot status
+- **Configure Token**: Set up or update bot token
+- **Exit**: Close the manager
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" width="80" />
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Open%20Mouth.png" width="80" />
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" width="80" />
-</div>
+### Background Scripts
+- `start_bot_background.bat`: Start bot in background mode
+- `stop_bot.bat`: Stop the running bot
+- `check_bot.bat`: Check if bot is running
 
-<div align="center">
-  <hr style="border-top: 3px dashed #bbb;">
-</div>
+## 📁 Project Structure
 
-## 📜 License
+```
+📦 Instagram Telegram Bot
+├── 📄 main.py                          # Main bot application
+├── 📄 requirements.txt                 # Python dependencies
+├── 📄 telegram_config.json             # Bot token configuration
+├── 📄 bot_manager.bat                  # Bot management interface
+├── 📂 bot_scripts/                     # Bot management scripts
+│   ├── 📄 start_bot_background.bat
+│   ├── 📄 stop_bot.bat
+│   └── 📄 check_bot.bat
+├── 📂 configuration/                   # Bot modules
+│   ├── 📄 __init__.py                  # Configuration loader
+│   ├── 📄 stats.py                     # Statistics management
+│   ├── 📄 instagram_reel.py            # Instagram reels handler
+│   ├── 📄 instagram_post.py            # Instagram posts handler
+│   ├── 📄 instagram_stories.py         # Instagram stories handler
+│   ├── 📄 instagram_profile_photo.py   # Profile photo handler
+│   ├── 📄 instagram_profile_analytics.py # Profile analytics
+│   ├── 📄 instagram_caption.py         # Caption extraction
+│   ├── 📄 youtube_video.py             # YouTube video handler
+│   ├── 📄 youtube_music.py             # YouTube audio handler
+│   ├── 📄 session_id.json              # Session management
+│   └── 📄 stats.json                   # Usage statistics
+└── 📄 README.md                        # This file
+```
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20with%20Curl.png" alt="License" width="120" />
-</div>
+## ⚙️ Configuration
 
-Licensed under the MIT License. See [`LICENSE`](LICENSE) for full terms.
+### Environment Setup
+The bot automatically handles most configuration, but you can customize:
 
-<div align="center">
- 
+1. **API Settings**: Edit `configuration/__init__.py` for API endpoints
+2. **Download Paths**: Modify download directories in respective modules
+3. **Rate Limits**: Adjust request delays in configuration files
+4. **Statistics**: Configure tracking in `configuration/stats.py`
 
-  <p>Made with ❤️ by <strong>Zork</strong></p>
+### Session Management
+- Instagram sessions are managed automatically
+- Session data is stored in `configuration/session_id.json`
+- Sessions are refreshed as needed to maintain functionality
 
-  <a href="https://github.com/samay825">
-    <img src="https://img.shields.io/badge/GitHub-Follow_Me-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Follow" />
-  </a>
-</div>
+## 🔧 Troubleshooting
+
+### Common Issues
+
+**Bot Token Error:**
+- Ensure your token is correctly configured in `telegram_config.json`
+- Verify the token is active and valid from @BotFather
+
+**Download Failures:**
+- Check if the content is public and accessible
+- Verify the URL format is correct
+- Some private content may not be downloadable
+
+**Python Not Found:**
+- Ensure Python 3.13.3+ is installed and added to PATH
+- Try running `python --version` in command prompt
+
+**Dependencies Issues:**
+- Run `pip install -r requirements.txt` manually
+- Check for any error messages during installation
+
+### Performance Tips
+- Run bot in background mode for 24/7 operation
+- Monitor system resources for heavy usage
+- Regular restart recommended for optimal performance
+
+
+
+## 🛡️ Security & Privacy
+
+- Bot tokens are stored locally and encrypted
+- No user data is permanently stored
+- Download links are automatically shortened and masked
+- Session data is managed securely
+
+
+
+## 📝 License
+
+This project is for educational purposes. Please respect platform terms of service and copyright laws when using this bot.
+
+## 📞 Support
+
+For issues or questions:
+- Check the troubleshooting section
+- Review error messages carefully
+- Ensure all dependencies are properly installed
+- Verify bot token configuration
+
+---
+
+**⚡ Quick Start**: Run `bot_manager.bat` → Configure Token → Start Bot → Enjoy! 🎉
