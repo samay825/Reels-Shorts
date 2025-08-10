@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Instagram Telegram Bot
+# 🤖 Instagram-Youtube Telegram Bot
 
 <img src="https://i.imgur.com/YourBotImage.png" alt="Instagram Telegram Bot" width="200" height="200" style="border-radius: 50%;">
 
