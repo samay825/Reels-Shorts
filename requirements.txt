@@ -6,3 +6,5 @@ instagrapi>=2.1.0
 yt-dlp>=2023.12.30
 httpx>=0.25.0
 pyshorteners>=1.0.1
+bs4
+
