@@ -2,7 +2,7 @@
 
 # 🤖 Instagram-Youtube Telegram Bot
 
-<img src="https://i.imgur.com/YourBotImage.png" alt="Instagram Telegram Bot" width="200" height="200" style="border-radius: 50%;">
+<img src="./reels-shorts.png" width="200" height="200" style="border-radius: 50%;">
 
 [![Python](https://img.shields.io/badge/Python-3.13.3+-blue.svg)](https://www.python.org/downloads/)
 [![Telegram Bot API](https://img.shields.io/badge/Telegram%20Bot%20API-4.15.4-blue.svg)](https://core.telegram.org/bots/api)
