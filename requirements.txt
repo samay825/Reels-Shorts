@@ -1,0 +1,8 @@
+pyTelegramBotAPI==4.15.4
+requests==2.31.0
+pytube==15.0.0
+instaloader==4.10.2 
+instagrapi>=2.1.0
+yt-dlp>=2023.12.30
+httpx>=0.25.0
+pyshorteners>=1.0.1
