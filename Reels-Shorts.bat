@@ -40,7 +40,7 @@ goto menu
 cls
 
 
-call "bot_scripts\start_bot_popup.bat"
+call "bot_scripts\start_bot_background.bat"
 
 :: Show completion popup
 powershell -Command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Bot startup process completed! Check the previous window for details.', 'Process Complete', 'OK', 'Information')"
@@ -165,3 +165,4 @@ powershell -Command "Add-Type -AssemblyName System.Windows.Forms; [System.Window
 
 timeout /t 2 /nobreak >nul
 exit
+
