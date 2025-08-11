@@ -38,15 +38,28 @@ goto menu
 
 :start_bot
 cls
-call "bot_scripts\start_bot_background.bat"
+
+
+call "bot_scripts\start_bot_popup.bat"
+
+:: Show completion popup
+powershell -Command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Bot startup process completed! Check the previous window for details.', 'Process Complete', 'OK', 'Information')"
+
 echo.
+echo Press any key to return to main menu...
 pause >nul
 goto menu
 
 :stop_bot
 cls
+echo Please wait while the bot stops...
+echo.
 
 call "bot_scripts\stop_bot.bat"
+
+:: Show completion popup
+powershell -Command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Bot stop process completed! All bot processes have been terminated.', 'Process Complete', 'OK', 'Information')"
+
 echo.
 echo Press any key to return to main menu...
 pause >nul
@@ -54,8 +67,19 @@ goto menu
 
 :check_bot
 cls
+echo.
+echo ========================================
+echo        CHECKING BOT STATUS
+echo ========================================
+echo.
+echo Please wait while checking bot status...
+echo.
 
 call "bot_scripts\check_bot.bat"
+
+:: Show completion popup
+powershell -Command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Bot status check completed! Check the previous window for detailed status information.', 'Status Check Complete', 'OK', 'Information')"
+
 echo.
 echo Press any key to return to main menu...
 pause >nul
@@ -85,6 +109,10 @@ echo {"token": "!new_token!"} > telegram_config.json
 
 echo.
 echo [SUCCESS] Bot token has been configured successfully!
+
+:: Show success popup
+powershell -Command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Bot token has been configured successfully! Your bot is now ready to use.', 'Configuration Success', 'OK', 'Information')"
+
 echo.
 echo Press any key to return to main menu...
 pause >nul
@@ -131,5 +159,9 @@ echo    THANK YOU FOR USING BOT MANAGER
 echo ========================================
 echo.
 echo Goodbye!
+
+:: Show goodbye popup
+powershell -Command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Thank you for using Instagram Telegram Bot Manager! Have a great day!', 'Goodbye!', 'OK', 'Information')"
+
 timeout /t 2 /nobreak >nul
 exit
